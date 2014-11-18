@@ -8,8 +8,9 @@ gem 'rails',        '4.1.6'
 gem 'rails-api',    '~> 0.3.1'
 gem 'twilio-ruby',  '~> 3.14.0'
 gem 'nokogiri',     '~> 1.6.3.1'
+gem 'droplet_kit',  '~> 1.1.2'
 
-group :development do
+group :development, :test do
   gem 'factory_girl'
   gem 'factory_girl_rails'
   gem 'rspec-rails',        '~> 3.1.0'
